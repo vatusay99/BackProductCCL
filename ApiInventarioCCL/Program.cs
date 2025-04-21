@@ -15,7 +15,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(opciones =>
 
 builder.Services.AddAutoMapper(typeof(ProductMapper));
 
+// Agregamos repositorios
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IMoveProductRepository, MoveProductRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
