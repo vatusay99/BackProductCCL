@@ -74,12 +74,15 @@ namespace ApiInventarioCCL.Repositories
             p.creation_date = DateTime.UtcNow;
 
             var productExist = _db.Productos.Find(p.Id);
-            if (productExist != null) 
+            if (productExist != null)
             {
                 _db.Entry(productExist).CurrentValues.SetValues(p);
             }
+            else 
+            {
+                _db.Productos.Update(p);
+            }
 
-            _db.Productos.Update(p);
             return Save();
         }
     }
