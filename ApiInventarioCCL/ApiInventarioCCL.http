@@ -1,0 +1,6 @@
+@ApiInventarioCCL_HostAddress = http://localhost:5201
+
+GET {{ApiInventarioCCL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

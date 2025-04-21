@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "BkBpSlzApIZ7rpYnLBf42cxZnQkQ8UxZDHEifrbBfGk=",
+  "Source": "ApiInventarioCCL",
+  "BasePath": "_content/ApiInventarioCCL",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
