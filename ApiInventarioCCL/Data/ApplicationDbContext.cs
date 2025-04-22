@@ -11,6 +11,8 @@ namespace ApiInventarioCCL.Data
         }
 
         public DbSet<Producto> Productos { get; set; }
-        public DbSet<MoveProduct> MoveProducts { get; set; } 
+        public DbSet<MoveProduct> MoveProducts { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+        
     }
 }

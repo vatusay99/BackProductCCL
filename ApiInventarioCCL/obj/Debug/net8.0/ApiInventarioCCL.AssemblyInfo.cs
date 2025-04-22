@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiInventarioCCL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d27cba77b6d83d6934d8c2f118956e82ae6be4b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f76a5e4ce9c03db9cba097daa2432dd29c557567")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiInventarioCCL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiInventarioCCL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
